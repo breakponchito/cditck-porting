@@ -20,7 +20,7 @@
     <parent>
         <artifactId>weld-core-parent</artifactId>
         <groupId>org.jboss.weld</groupId>
-        <version>5.0.0.SP2</version>
+        <version>5.0.1.Final</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -42,9 +42,9 @@
         <shrinkwrap.version>1.2.6</shrinkwrap.version>
         <minimum.maven.version>3.0.5</minimum.maven.version>
         <cdi.api.version>4.0.1</cdi.api.version>
-        <cdi.tck.version>4.0.13</cdi.tck.version>
+        <cdi.tck.version>4.0.6</cdi.tck.version>
         <httpcomponents.version>4.5.5</httpcomponents.version>
-        <arquillian.version>1.8.1.Final</arquillian.version>
+        <arquillian.version>1.7.0.Alpha10</arquillian.version>
         <jakarta.platform.version>10.0.0</jakarta.platform.version>
     </properties>
 
@@ -201,22 +201,22 @@
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-multipart</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>jakarta.el</artifactId>
-            <version>5.0.0-M1</version>
+            <groupId>org.glassfish.expressly</groupId>
+            <artifactId>expressly</artifactId>
+            <version>5.0.0</version>
         </dependency>
     </dependencies>
 
@@ -447,7 +447,7 @@
                 <dependency>
                     <groupId>org.glassfish.jersey.inject</groupId>
                     <artifactId>jersey-hk2</artifactId>
-                    <version>3.1.7.payara-p1</version>
+                    <version>3.1.7</version>
                 </dependency>
                 <dependency>
                     <groupId>org.glassfish.hk2</groupId>
