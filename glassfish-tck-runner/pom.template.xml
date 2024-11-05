@@ -20,7 +20,7 @@
     <parent>
         <artifactId>weld-core-parent</artifactId>
         <groupId>org.jboss.weld</groupId>
-        <version>5.0.0.SP2</version>
+        <version>5.0.1.Final</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -45,7 +45,7 @@
         <cdi.tck.version>4.0.6</cdi.tck.version>
         <httpcomponents.version>4.5.5</httpcomponents.version>
         <arquillian.version>1.7.0.Alpha10</arquillian.version>
-        <jakarta.platform.version>10.0.0-RC1</jakarta.platform.version>
+        <jakarta.platform.version>10.0.0</jakarta.platform.version>
     </properties>
 
     <dependencyManagement>
@@ -201,22 +201,22 @@
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-multipart</artifactId>
-            <version>3.1.0-M5</version>
+            <version>3.1.7</version>
         </dependency>
         <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>jakarta.el</artifactId>
-            <version>5.0.0-M1</version>
+            <groupId>org.glassfish.expressly</groupId>
+            <artifactId>expressly</artifactId>
+            <version>5.0.0</version>
         </dependency>
     </dependencies>
 
@@ -447,7 +447,7 @@
                 <dependency>
                     <groupId>org.glassfish.jersey.inject</groupId>
                     <artifactId>jersey-hk2</artifactId>
-                    <version>3.0.3.payara-p2</version>
+                    <version>3.1.7</version>
                 </dependency>
                 <dependency>
                     <groupId>org.glassfish.hk2</groupId>
@@ -457,7 +457,7 @@
                 <dependency>
                     <groupId>fish.payara.arquillian</groupId>
                     <artifactId>arquillian-payara-server-remote</artifactId>
-                    <version>3.0.alpha6</version>
+                    <version>3.1</version>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
@@ -493,7 +493,7 @@
                 <dependency>
                     <groupId>fish.payara.arquillian</groupId>
                     <artifactId>arquillian-payara-server-managed</artifactId>
-                    <version>3.0.alpha3</version>
+                    <version>3.1</version>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
@@ -587,7 +587,7 @@
     <repositories>
         <repository>
             <id>payara-nexus-artifacts</id>
-            <url>https://nexus.payara.fish/repository/payara-artifacts</url>
+            <url>https://nexus.dev.payara.fish/repository/payara-artifacts</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
